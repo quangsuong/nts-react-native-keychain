@@ -68,6 +68,7 @@ class KeychainModule(reactContext: ReactApplicationContext) :
       const val SUBTITLE = "subtitle"
       const val DESCRIPTION = "description"
       const val CANCEL = "cancel"
+      const val CONFIRMATION_REQUIRED = "confirmationRequired"
     }
   }
 
@@ -780,8 +781,14 @@ class KeychainModule(reactContext: ReactApplicationContext) :
         }
       }
 
-      /* Bypass confirmation to avoid KeyStore unlock timeout being exceeded when using passive biometrics */
-      promptInfoBuilder.setConfirmationRequired(false)
+      // Default is true (require confirmation)
+      var confirmationRequired = true
+      promptInfoOptionsMap?.let {
+        if (it.hasKey(AuthPromptOptions.CONFIRMATION_REQUIRED)) {
+          confirmationRequired = it.getBoolean(AuthPromptOptions.CONFIRMATION_REQUIRED)
+        }
+      }
+      promptInfoBuilder.setConfirmationRequired(confirmationRequired)
       return promptInfoBuilder.build()
     }
 
