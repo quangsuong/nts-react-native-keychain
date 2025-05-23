@@ -1,96 +1,117 @@
-<h1 align="center"><img
-    src="website/static/img/logo.png"
-    align="center" width="50" height="50" alt=""
-  /> react-native-keychain</h1>
+# 🔐 nts-react-native-keychain
 
-[![Tests](https://github.com/oblador/react-native-keychain/actions/workflows/e2e_tests.yaml/badge.svg)](https://github.com/oblador/react-native-keychain/actions/workflows/e2e_tests.yaml) [![npm](https://img.shields.io/npm/v/react-native-keychain.svg)](https://npmjs.com/package/react-native-keychain) [![npm](https://img.shields.io/npm/dm/react-native-keychain.svg)](https://npmjs.com/package/react-native-keychain)
+A secure credentials storage module for React Native — **forked from [`react-native-keychain`](https://github.com/oblador/react-native-keychain)** with biometric caching disabled.
 
-This library provides access to the Keychain (iOS) and Keystore (Android) for securely storing credentials like passwords, tokens, or other sensitive information in React Native apps.
+> This version sets `validityDuration = 0` for **biometric authentication**, ensuring the prompt always appears on access.
 
-- [Installation](#installation)
-- [Documentation](#documentation)
-- [Changelog](#changelog)
-- [Maintainers](#maintainers)
-- [Used By](#used-by)
-- [License](#license)
+---
 
-## Installation
+## ✨ Features
 
-1. Run `yarn add react-native-keychain`
-2. Run `pod install` in `ios/` directory to install iOS dependencies.
-3. If you want to support FaceID, add a `NSFaceIDUsageDescription` entry in your `Info.plist`.
-4. Re-build your Android and iOS projects.
+- ✅ Secure credentials storage (Android Keystore / iOS Keychain)
+- ✅ Biometric auth with Face ID / Touch ID / Fingerprint
+- ✅ **Biometric prompt appears every time** (no caching)
+- ✅ Full support for `SECURE_HARDWARE`, `ACCESS_CONTROL`, etc.
+- ✅ Drop-in replacement for the original package
 
-## Documentation
+---
 
-Please refer to the documentation website on https://oblador.github.io/react-native-keychain
+## 📦 Installation
 
-## Changelog
+```bash
+yarn add nts-react-native-keychain
+# or
+npm install nts-react-native-keychain
+```
 
-Check the [GitHub Releases page](https://github.com/oblador/react-native-keychain/releases).
+---
 
-## Maintainers
+## ⚙️ Basic Usage
 
-<table>
-  <tbody>
-    <tr>
-      <td align="center">
-        <a href="https://github.com/oblador">
-          <img width="100" height="100" src="https://github.com/oblador.png?v=3&s=150">
-          <br />
-          <strong>Joel Arvidsson</strong>
-        </a>
-        <br />
-        Author
-      </td>
-      <td align="center">
-        <a href="https://github.com/DorianMazur">
-          <img width="100" height="100" src="https://github.com/DorianMazur.png?v=3&s=150">
-          <br />
-          <strong>Dorian Mazur</strong>
-        </a>
-        <br />
-        Maintainer
-      </td>
-      <td align="center">
-        <a href="https://github.com/vonovak">
-          <img width="100" height="100" src="https://github.com/vonovak.png?v=3&s=150">
-          <br />
-          <strong>Vojtech Novak</strong>
-        </a>
-        <br />
-        Maintainer
-      </td>
-      <td align="center">
-        <a href="https://github.com/pcoltau">
-          <img width="100" height="100" src="https://github.com/pcoltau.png?v=3&s=150">
-          <br />
-          <strong>Pelle Stenild Coltau</strong>
-        </a>
-        <br />
-        Maintainer
-      </td>
-      <td align="center">
-        <a href="https://github.com/OleksandrKucherenko">
-          <img width="100" height="100" src="https://github.com/OleksandrKucherenko.png?v=3&s=150">
-          <br />
-          <strong>Oleksandr Kucherenko</strong>
-        </a>
-        <br />
-        Contributor
-      </td>
-    </tr>
-  <tbody>
-</table>
+```ts
+import * as Keychain from 'nts-react-native-keychain';
 
-## Used By
+await Keychain.setGenericPassword('username', 'secureToken', {
+  accessControl: Keychain.ACCESS_CONTROL.BIOMETRY_CURRENT_SET,
+  accessible: Keychain.ACCESSIBLE.WHEN_UNLOCKED,
+  securityLevel: Keychain.SECURITY_LEVEL.SECURE_HARDWARE,
+  authenticationPrompt: {
+    title: 'Xác thực sinh trắc học',
+    cancel: 'Huỷ',
+  },
+});
 
-This library is used by several projects, including:
+const credentials = await Keychain.getGenericPassword({
+  authenticationPrompt: {
+    title: 'Xác thực lại',
+    cancel: 'Đóng',
+  }
+});
 
-- [Rainbow Wallet](https://github.com/rainbow-me/rainbow)
-- [MetaMask Mobile](https://github.com/MetaMask/metamask-mobile)
-- [BlueWallet](https://github.com/bluewallet/bluewallet)
+console.log(credentials); // { username: 'username', password: 'secureToken' }
+```
 
-## License
+---
 
-MIT © Joel Arvidsson 2016-2020
+## 📌 Differences from the original
+
+| Behavior                      | `react-native-keychain` | `nts-react-native-keychain` |
+|------------------------------|--------------------------|------------------------------|
+| Biometric caching (Android)  | ✅ Cached                 | ❌ Always prompt (`0s`)      |
+| Validity duration            | Configurable             | **Forced to `0`**            |
+| Ideal use case               | Common apps              | Banking / secure apps        |
+
+---
+
+## 🔧 Native Requirements
+
+### Android
+
+- Min SDK 23+
+- BiometricPrompt API (AndroidX)
+- Uses `KeyGenParameterSpec` with:
+  ```kotlin
+  setUserAuthenticationValidityDurationSeconds(0)
+  ```
+
+### iOS
+
+- No extra setup
+- Enable Face ID / Touch ID in Xcode capabilities
+```ts
+Run pod install in ios/ directory to install iOS dependencies.
+If you want to support FaceID, add a NSFaceIDUsageDescription entry in your Info.plist.
+Re-build your Android and iOS projects.
+```
+
+---
+
+## 🛠 API
+
+Same API as [`react-native-keychain`](https://github.com/oblador/react-native-keychain#api):
+
+- `setGenericPassword()`
+- `getGenericPassword()`
+- `resetGenericPassword()`
+- `getSupportedBiometryType()`
+
+Includes:
+
+```ts
+Keychain.ACCESS_CONTROL
+Keychain.ACCESSIBLE
+Keychain.SECURITY_LEVEL
+```
+
+---
+
+## 🧠 Author
+
+Maintained by [@quangsuong](https://github.com/quangsuong)  
+Forked from [@oblador/react-native-keychain](https://github.com/oblador/react-native-keychain)
+
+---
+
+## 📄 License
+
+MIT

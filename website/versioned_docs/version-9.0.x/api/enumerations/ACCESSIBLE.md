@@ -12,7 +12,7 @@ The data in the keychain item cannot be accessed after a restart until the devic
 
 #### Defined in
 
-[index.ts:12](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L12)
+[index.ts:12](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L12)
 
 ***
 
@@ -24,7 +24,7 @@ The data in the keychain item cannot be accessed after a restart until the devic
 
 #### Defined in
 
-[index.ts:20](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L20)
+[index.ts:20](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L20)
 
 ***
 
@@ -36,7 +36,7 @@ The data in the keychain item can always be accessed regardless of whether the d
 
 #### Defined in
 
-[index.ts:14](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L14)
+[index.ts:14](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L14)
 
 ***
 
@@ -48,7 +48,7 @@ The data in the keychain can only be accessed when the device is unlocked. Only 
 
 #### Defined in
 
-[index.ts:16](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L16)
+[index.ts:16](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L16)
 
 ***
 
@@ -60,7 +60,7 @@ The data in the keychain item can be accessed only while the device is unlocked 
 
 #### Defined in
 
-[index.ts:10](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L10)
+[index.ts:10](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L10)
 
 ***
 
@@ -72,4 +72,4 @@ The data in the keychain item can be accessed only while the device is unlocked 
 
 #### Defined in
 
-[index.ts:18](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L18)
+[index.ts:18](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L18)

@@ -22,4 +22,4 @@ AUTHENTICATION_TYPE.DEVICE_PASSCODE_OR_BIOMETRICS
 
 ## Defined in
 
-[types.ts:105](https://github.com/oblador/react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/types.ts#L105)
+[types.ts:105](https://github.com/quangsuong/nts-react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/types.ts#L105)

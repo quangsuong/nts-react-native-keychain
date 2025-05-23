@@ -75,4 +75,4 @@ Android
 
 ## Defined in
 
-[types.ts:44](https://github.com/oblador/react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/types.ts#L44)
+[types.ts:44](https://github.com/quangsuong/nts-react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/types.ts#L44)

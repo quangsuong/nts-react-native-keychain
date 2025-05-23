@@ -56,4 +56,4 @@ The storage type (Android only).
 
 ## Defined in
 
-[index.ts:124](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L124)
+[index.ts:124](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L124)

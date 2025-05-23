@@ -16,7 +16,7 @@ No security guarantees needed (default value). Credentials can be stored in FB S
 
 #### Defined in
 
-[enums.ts:67](https://github.com/oblador/react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L67)
+[enums.ts:67](https://github.com/quangsuong/nts-react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L67)
 
 ***
 
@@ -29,7 +29,7 @@ Read this article for more information: https://developer.android.com/privacy-an
 
 #### Defined in
 
-[enums.ts:64](https://github.com/oblador/react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L64)
+[enums.ts:64](https://github.com/quangsuong/nts-react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L64)
 
 ***
 
@@ -41,4 +41,4 @@ Requires for the key to be stored in the Android Keystore, separate from the enc
 
 #### Defined in
 
-[enums.ts:59](https://github.com/oblador/react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L59)
+[enums.ts:59](https://github.com/quangsuong/nts-react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L59)

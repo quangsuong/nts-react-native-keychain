@@ -12,7 +12,7 @@ Encryptions without human interaction.
 
 #### Defined in
 
-[index.ts:92](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L92)
+[index.ts:92](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L92)
 
 ***
 
@@ -24,7 +24,7 @@ Facebook compatibility cipher.
 
 #### Defined in
 
-[index.ts:90](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L90)
+[index.ts:90](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L90)
 
 ***
 
@@ -36,7 +36,7 @@ iOS Keychain or Android default storage.
 
 #### Defined in
 
-[index.ts:96](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L96)
+[index.ts:96](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L96)
 
 ***
 
@@ -48,4 +48,4 @@ Encryption with biometrics.
 
 #### Defined in
 
-[index.ts:94](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L94)
+[index.ts:94](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L94)

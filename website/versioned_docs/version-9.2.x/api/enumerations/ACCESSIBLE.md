@@ -12,7 +12,7 @@ The data in the keychain item cannot be accessed after a restart until the devic
 
 #### Defined in
 
-[enums.ts:12](https://github.com/oblador/react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L12)
+[enums.ts:12](https://github.com/quangsuong/nts-react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L12)
 
 ***
 
@@ -24,7 +24,7 @@ The data in the keychain item cannot be accessed after a restart until the devic
 
 #### Defined in
 
-[enums.ts:20](https://github.com/oblador/react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L20)
+[enums.ts:20](https://github.com/quangsuong/nts-react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L20)
 
 ***
 
@@ -36,7 +36,7 @@ The data in the keychain item can always be accessed regardless of whether the d
 
 #### Defined in
 
-[enums.ts:14](https://github.com/oblador/react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L14)
+[enums.ts:14](https://github.com/quangsuong/nts-react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L14)
 
 ***
 
@@ -48,7 +48,7 @@ The data in the keychain can only be accessed when the device is unlocked. Only 
 
 #### Defined in
 
-[enums.ts:16](https://github.com/oblador/react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L16)
+[enums.ts:16](https://github.com/quangsuong/nts-react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L16)
 
 ***
 
@@ -60,7 +60,7 @@ The data in the keychain item can be accessed only while the device is unlocked 
 
 #### Defined in
 
-[enums.ts:10](https://github.com/oblador/react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L10)
+[enums.ts:10](https://github.com/quangsuong/nts-react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L10)
 
 ***
 
@@ -72,4 +72,4 @@ The data in the keychain item can be accessed only while the device is unlocked 
 
 #### Defined in
 
-[enums.ts:18](https://github.com/oblador/react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L18)
+[enums.ts:18](https://github.com/quangsuong/nts-react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L18)

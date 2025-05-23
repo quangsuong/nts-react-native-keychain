@@ -158,7 +158,7 @@ class CipherStorageKeystoreAesGcm(
     ): KeyGenParameterSpec.Builder {
         val purposes = KeyProperties.PURPOSE_DECRYPT or KeyProperties.PURPOSE_ENCRYPT
 
-        val validityDuration = 5
+        val validityDuration = 0
         val keyGenParameterSpecBuilder =
             KeyGenParameterSpec.Builder(alias, purposes).setBlockModes(BLOCK_MODE_GCM)
                 .setEncryptionPaddings(PADDING_NONE).setRandomizedEncryptionRequired(true)

@@ -12,7 +12,7 @@ Device owner is going to be authenticated using a biometric method (Touch ID or 
 
 #### Defined in
 
-[enums.ts:50](https://github.com/oblador/react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L50)
+[enums.ts:50](https://github.com/quangsuong/nts-react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L50)
 
 ***
 
@@ -24,4 +24,4 @@ Device owner is going to be authenticated by biometry or device passcode.
 
 #### Defined in
 
-[enums.ts:48](https://github.com/oblador/react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L48)
+[enums.ts:48](https://github.com/quangsuong/nts-react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L48)

@@ -23,4 +23,4 @@ console.log('Credentials reset for server');
 
 ## Defined in
 
-[index.ts:225](https://github.com/oblador/react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/index.ts#L225)
+[index.ts:225](https://github.com/quangsuong/nts-react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/index.ts#L225)

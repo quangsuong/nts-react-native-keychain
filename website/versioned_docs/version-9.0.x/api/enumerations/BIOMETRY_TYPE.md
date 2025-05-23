@@ -12,7 +12,7 @@ Device supports authentication with Face Recognition. (Android only)
 
 #### Defined in
 
-[index.ts:80](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L80)
+[index.ts:80](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L80)
 
 ***
 
@@ -24,7 +24,7 @@ Device supports authentication with Face ID. (iOS only)
 
 #### Defined in
 
-[index.ts:74](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L74)
+[index.ts:74](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L74)
 
 ***
 
@@ -36,7 +36,7 @@ Device supports authentication with Fingerprint. (Android only)
 
 #### Defined in
 
-[index.ts:78](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L78)
+[index.ts:78](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L78)
 
 ***
 
@@ -48,7 +48,7 @@ Device supports authentication with Iris Recognition. (Android only)
 
 #### Defined in
 
-[index.ts:82](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L82)
+[index.ts:82](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L82)
 
 ***
 
@@ -60,7 +60,7 @@ Device supports authentication with Optic ID. (visionOS only)
 
 #### Defined in
 
-[index.ts:76](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L76)
+[index.ts:76](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L76)
 
 ***
 
@@ -72,4 +72,4 @@ Device supports authentication with Touch ID. (iOS only)
 
 #### Defined in
 
-[index.ts:72](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L72)
+[index.ts:72](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L72)

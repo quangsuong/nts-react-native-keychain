@@ -182,7 +182,7 @@ class CipherStorageKeystoreRsaEcb(reactContext: ReactApplicationContext) :
 
         val keySize = ENCRYPTION_KEY_SIZE
 
-        val validityDuration = 5
+        val validityDuration = 0
         val keyGenParameterSpecBuilder =
             KeyGenParameterSpec.Builder(alias, purposes)
                 .setBlockModes(BLOCK_MODE_ECB)

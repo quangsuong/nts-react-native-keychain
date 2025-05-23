@@ -25,4 +25,4 @@ console.log('Password exists:', hasPassword);
 
 ## Defined in
 
-[index.ts:93](https://github.com/oblador/react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/index.ts#L93)
+[index.ts:93](https://github.com/quangsuong/nts-react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/index.ts#L93)

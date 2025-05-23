@@ -3,7 +3,7 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import pkg from '../package.json';
 
-const REPO_URL = 'https://github.com/oblador/react-native-keychain';
+const REPO_URL = 'https://github.com/quangsuong/nts-react-native-keychain';
 
 const config: Config = {
   title: 'react-native-keychain',

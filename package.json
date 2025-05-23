@@ -1,7 +1,7 @@
 {
-  "name": "react-native-keychain",
-  "version": "10.0.0",
-  "description": "Keychain Access for React Native",
+  "name": "nts-react-native-keychain",
+  "version": "1.0.2",
+  "description": "React Native Keychain fork with biometric caching disabled (validity = 0)",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index",
   "types": "./lib/typescript/index.d.ts",
@@ -42,9 +42,9 @@
     "Dorian Mazur <mazur.dorian15@gmail.com> (https://github.com/DorianMazur)",
     "Vojtech Novak <vonovak@gmail.com> (https://github.com/vonovak)"
   ],
-  "homepage": "https://oblador.github.io/react-native-keychain",
+  "homepage": "https://github.com/quangsuong/nts-react-native-keychain",
   "bugs": {
-    "url": "https://github.com/oblador/react-native-keychain/issues"
+    "url": "https://github.com/quangsuong/nts-react-native-keychain/issues"
   },
   "typescript": {
     "definition": "typings/react-native-keychain.d.ts"
@@ -52,7 +52,7 @@
   "packageManager": "yarn@3.6.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/oblador/react-native-keychain.git"
+    "url": "git://github.com/quangsuong/nts-react-native-keychain.git"
   },
   "license": "MIT",
   "devDependencies": {

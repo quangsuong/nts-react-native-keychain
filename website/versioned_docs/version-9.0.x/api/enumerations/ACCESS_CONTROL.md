@@ -12,7 +12,7 @@ Constraint to use an application-provided password for data encryption key gener
 
 #### Defined in
 
-[index.ts:36](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L36)
+[index.ts:36](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L36)
 
 ***
 
@@ -24,7 +24,7 @@ Constraint to access an item with Touch ID for any enrolled fingers.
 
 #### Defined in
 
-[index.ts:30](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L30)
+[index.ts:30](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L30)
 
 ***
 
@@ -36,7 +36,7 @@ Constraint to access an item with Touch ID for any enrolled fingers or passcode.
 
 #### Defined in
 
-[index.ts:38](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L38)
+[index.ts:38](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L38)
 
 ***
 
@@ -48,7 +48,7 @@ Constraint to access an item with Touch ID for currently enrolled fingers.
 
 #### Defined in
 
-[index.ts:32](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L32)
+[index.ts:32](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L32)
 
 ***
 
@@ -60,7 +60,7 @@ Constraint to access an item with Touch ID for currently enrolled fingers or pas
 
 #### Defined in
 
-[index.ts:40](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L40)
+[index.ts:40](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L40)
 
 ***
 
@@ -72,7 +72,7 @@ Constraint to access an item with the device passcode.
 
 #### Defined in
 
-[index.ts:34](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L34)
+[index.ts:34](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L34)
 
 ***
 
@@ -84,4 +84,4 @@ Constraint to access an item with either Touch ID or passcode.
 
 #### Defined in
 
-[index.ts:28](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L28)
+[index.ts:28](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L28)

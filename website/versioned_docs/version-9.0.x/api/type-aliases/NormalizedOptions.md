@@ -14,4 +14,4 @@ Authentication prompt details.
 
 ## Defined in
 
-[index.ts:146](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L146)
+[index.ts:146](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L146)

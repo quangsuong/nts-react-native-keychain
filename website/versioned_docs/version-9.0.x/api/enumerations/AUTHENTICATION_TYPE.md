@@ -12,7 +12,7 @@ Device owner is going to be authenticated using a biometric method (Touch ID or 
 
 #### Defined in
 
-[index.ts:50](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L50)
+[index.ts:50](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L50)
 
 ***
 
@@ -24,4 +24,4 @@ Device owner is going to be authenticated by biometry or device passcode.
 
 #### Defined in
 
-[index.ts:48](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L48)
+[index.ts:48](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L48)

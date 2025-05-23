@@ -33,7 +33,7 @@ Use AES_GCM_NO_AUTH instead.
 
 #### Defined in
 
-[enums.ts:126](https://github.com/oblador/react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L126)
+[enums.ts:126](https://github.com/quangsuong/nts-react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L126)
 
 ***
 
@@ -50,7 +50,7 @@ Use AES_GCM_NO_AUTH instead.
 
 #### Defined in
 
-[enums.ts:132](https://github.com/oblador/react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L132)
+[enums.ts:132](https://github.com/quangsuong/nts-react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L132)
 
 ***
 
@@ -63,7 +63,7 @@ Requires user authentication for both encryption and decryption operations.
 
 #### Defined in
 
-[enums.ts:142](https://github.com/oblador/react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L142)
+[enums.ts:142](https://github.com/quangsuong/nts-react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L142)
 
 ***
 
@@ -76,7 +76,7 @@ Provides both data confidentiality and authentication.
 
 #### Defined in
 
-[enums.ts:137](https://github.com/oblador/react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L137)
+[enums.ts:137](https://github.com/quangsuong/nts-react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L137)
 
 ***
 
@@ -92,7 +92,7 @@ Facebook Conceal was deprecated and archived in Mar 3, 2020. https://github.com/
 
 #### Defined in
 
-[enums.ts:122](https://github.com/oblador/react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L122)
+[enums.ts:122](https://github.com/quangsuong/nts-react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L122)
 
 ***
 
@@ -105,4 +105,4 @@ Uses asymmetric encryption and requires biometric authentication.
 
 #### Defined in
 
-[enums.ts:147](https://github.com/oblador/react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L147)
+[enums.ts:147](https://github.com/quangsuong/nts-react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/enums.ts#L147)

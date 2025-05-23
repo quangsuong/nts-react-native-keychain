@@ -12,7 +12,7 @@ Any security level.
 
 #### Defined in
 
-[index.ts:64](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L64)
+[index.ts:64](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L64)
 
 ***
 
@@ -24,7 +24,7 @@ Secure storage using hardware-based encryption.
 
 #### Defined in
 
-[index.ts:61](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L61)
+[index.ts:61](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L61)
 
 ***
 
@@ -36,4 +36,4 @@ Secure storage using software-based encryption.
 
 #### Defined in
 
-[index.ts:58](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L58)
+[index.ts:58](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L58)

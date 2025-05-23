@@ -27,4 +27,4 @@ if (credentials) {
 
 ## Defined in
 
-[index.ts:268](https://github.com/oblador/react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/index.ts#L268)
+[index.ts:268](https://github.com/quangsuong/nts-react-native-keychain/blob/6ec8fdb5b967a106085e74014d8072182c9fca28/src/index.ts#L268)

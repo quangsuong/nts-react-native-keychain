@@ -20,4 +20,4 @@ The username associated with the keychain item.
 
 ## Defined in
 
-[index.ts:174](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L174)
+[index.ts:174](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L174)

@@ -36,4 +36,4 @@ await Keychain.setInternetCredentials('https://example.com', 'username', 'passwo
 
 ## Defined in
 
-[index.ts:379](https://github.com/oblador/react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L379)
+[index.ts:379](https://github.com/quangsuong/nts-react-native-keychain/blob/06824b340311076cce81e80bceb3c34da22ca810/src/index.ts#L379)
